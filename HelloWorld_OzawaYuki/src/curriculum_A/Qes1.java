@@ -3,15 +3,15 @@ package curriculum_A;
 public class Qes1 {
 
 	public static void main(String[] args) {
-		byteNum // 変数byteNumの初期値を設定
-		shortNum // 変数shortの初期値を設定
-		intNum // 変数intNumの初期値を設定
-		longNum // 変数longNumの初期値を設定
-		floatNum // 変数floatNumの初期値を設定
-		doubleNum // 変数doubleNumの初期値を設定
-		char letter // 変数letterの初期値を設定
-		String letters // 変数lettersの初期値を設定
-		isBoolean // 変数isBooleanの初期値を設定
+		byteNum; // 変数byteNumの初期値を設定
+		shortNum; // 変数shortの初期値を設定
+		intNum; // 変数intNumの初期値を設定
+		longNum; // 変数longNumの初期値を設定
+		floatNum; // 変数floatNumの初期値を設定
+		doubleNum; // 変数doubleNumの初期値を設定
+		char letter; // 変数letterの初期値を設定
+		String letters; // 変数lettersの初期値を設定
+		isBoolean; // 変数isBooleanの初期値を設定
 		
 		
 		byteNum =10; // 変数byteNumに10を代入

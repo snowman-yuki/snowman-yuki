@@ -47,7 +47,8 @@ public class Qes1 {
 		System.out.println( a + a + a + b + c + d ); //　数字を全て足して出力
 		System.out.println( 1.0 * a * a * a * a * a * a * a * a * a * a ); //　小数点以外の数字を全てかけて出力
 		System.out.println( y / b ); // 10.5割る100をして出力
-		System.out.println( a - b );
+		System.out.println( a - b ); // 10引く100をして出力
+		
 		
 
 	}

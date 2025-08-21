@@ -4,39 +4,39 @@ public class Qes1 {
 
 	public static void main(String[] args) {
 		// 問1 & 問2
-		byte a; // 変数byteNumの初期値を設定
+		byte a = 0; // 変数byteNumの初期値を設定
 		a =10; // 変数byteNumに10を代入
 		
 		
-		short b; // 変数shortの初期値を設定
+		short b = 0; // 変数shortの初期値を設定
 		b = 100; // 変数shortNumに100を代入
 		
 		
-		int c; // 変数intNumの初期値を設定
+		int c = 0; // 変数intNumの初期値を設定
 		c = 1000; // 変数intNumに1000を代入
 		
 		
-		long d; // 変数longNumの初期値を設定
+		long d = 0L; // 変数longNumの初期値を設定
 		d = 10000; // 変数longNumに10000を代入
 		
 		
-		float x; // 変数floatNumの初期値を設定
+		float x = 0.0f; // 変数floatNumの初期値を設定
 		x = 9.5f; // 変数floatNumに9.5fを代入
 		
 		
-		double y; // 変数doubleNumの初期値を設定
+		double y = 0.0; // 変数doubleNumの初期値を設定
 		y = 10.5; // 変数doubleNumに10.5を代入
 		
 		
-		char letter; // 変数letterの初期値を設定
+		char letter = '\u0000'; // 変数letterの初期値を設定
 		letter = 'a'; // 変数letterに'a'を代入
 		
 		
-		String greeting; // 変数lettersの初期値を設定
+		String greeting = null; // 変数lettersの初期値を設定
 		greeting = "ハロー"; // 変数lettersに"ハロー"を代入
 		
 		
-		boolean isOverTeenage; // 変数isBooleanの初期値を設定
+		boolean isOverTeenage = false; // 変数isBooleanの初期値を設定
 		isOverTeenage = true; // 変数isBooleanにtrueを代入
 		
 		

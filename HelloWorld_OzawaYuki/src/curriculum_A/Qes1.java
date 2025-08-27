@@ -99,17 +99,41 @@ public class Qes1 {
 		System.out.println( "最終スコア:" + score );
 		
 		
+		// 問8
+		/*
+		 * priceというdouble型の変数を宣言し、99.99を代入
+		 * priceをint型に変換し、整数価格:99とコンソールに表示してください。
+		 */
 		
 		
+		double price = 99.99;
+		int p = (int) price;
+		System.out.println( "整数価格:" + p );
 		
 		
+		// 問9
+		/*
+		 * String 型の変数 numStr に "123" を代入
+		 * numStr を int 型に変換し、
+		 * 変換後の値: の後ろにnumStr + 10 した結果をコンソールに表示してください。
+		 */
 		
 		
+		String numStr = "123";
+		int n = Integer.parseInt(numStr);
+		System.out.println( n + 10 );
 		
 		
+		// 問10
+		/*
+		 * int 型の変数 num に 50 を代入
+		 * num を String 型に変換し、"得点: 50点" の形で表示
+		 */
 		
 		
-		
+		int num = 50;
+		String str = String.valueOf(num);
+		System.out.println( "得点:" + str + "点" );
 		
 		
 		

@@ -4,12 +4,12 @@ public class Qes1 {
 
 	public static void main(String[] args) {
 		// 問1 & 問2
-		byte a = 0; // 変数byteNumの初期値を設定
-		a =10; // 変数byteNumに10を代入
+		byte p = 0; // 変数byteNumの初期値を設定
+		p =10; // 変数byteNumに10を代入
 		
 		
-		short b = 0; // 変数shortの初期値を設定
-		b = 100; // 変数shortNumに100を代入
+		short q = 0; // 変数shortの初期値を設定
+		q = 100; // 変数shortNumに100を代入
 		
 		
 		int c = 0; // 変数intNumの初期値を設定
@@ -20,8 +20,8 @@ public class Qes1 {
 		d = 10000; // 変数longNumに10000を代入
 		
 		
-		float x = 0.0f; // 変数floatNumの初期値を設定
-		x = 9.5f; // 変数floatNumに9.5fを代入
+		float s = 0.0f; // 変数floatNumの初期値を設定
+		s = 9.5f; // 変数floatNumに9.5fを代入
 		
 		
 		double y = 0.0; // 変数doubleNumの初期値を設定
@@ -43,13 +43,13 @@ public class Qes1 {
 		
 		
 		// 問3
-		System.out.println( a + b + c + d ); // 11110を出力
-		System.out.println( a + a ); // 20を出力
+		System.out.println( p + q + c + d ); // 11110を出力
+		System.out.println( p + p ); // 20を出力
 		System.out.println( letter + greeting + isOverTeenage ); // a ハロー trueを出力
-		System.out.println( a + a + a + b + c + d ); //　数字を全て足して出力
-		System.out.println( d * d * b ); //　小数点以外の数字を全てかけて出力
-		System.out.println( y / b ); // 10.5割る100をして出力
-		System.out.println( a - b ); // 10引く100をして出力
+		System.out.println( p + p + p + q + c + d ); //　数字を全て足して出力
+		System.out.println( d * d * q ); //　小数点以外の数字を全てかけて出力
+		System.out.println( y / q ); // 10.5割る100をして出力
+		System.out.println( p - q ); // 10引く100をして出力
 		
 		
 		// 問4
@@ -107,8 +107,8 @@ public class Qes1 {
 		
 		
 		double price = 99.99;
-		int p = (int) price;
-		System.out.println( "整数価格:" + p );
+		int pr = (int) price;
+		System.out.println( "整数価格:" + pr );
 		
 		
 		// 問9
@@ -134,6 +134,43 @@ public class Qes1 {
 		int num = 50;
 		String str = String.valueOf(num);
 		System.out.println( "得点:" + str + "点" );
+		
+		
+		// 問11
+		/*
+		 * 次の条件を満たすプログラムを条件演算子を使用して作成してください。
+		 * int 型の変数 a に 10 を代入
+		 * int 型の変数 b に 20 を代入
+		 * a が b より小さいかどうかを boolean 変数 result に代入
+		 * result の値を表示
+		 */
+		
+		
+		int a = 10;
+		int b = 20;
+		boolean result = a < b;
+		System.out.println(result);
+		
+		
+		// 問12
+		/*
+		 * 条件演算子（三項演算子）を使用してください。
+		 * int 型の変数 x に 15 を代入
+		 * x が 10 以上なら "OK"、そうでなければ "NG" を表示
+		 */
+		
+		
+		int x = 15;
+		System.out.println( x > 10 );
+		
+		
+		// 問13
+		/*
+		 * String text = "私はJavaが好きです。Javaは楽しい！";という
+		 * 文章の中にある 「Java」 を 「Python」 に置き換えて表示させてください。
+		 */
+		
+		
 		
 		
 		
